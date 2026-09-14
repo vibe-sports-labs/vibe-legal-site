@@ -3,60 +3,124 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vibe — Legal</title>
-  <meta name="description" content="Termos de Uso, Política de Privacidade e solicitação de exclusão de conta do Vibe." />
+
+  <title>Vibe Sports — Central Legal</title>
+
+  <meta
+    name="description"
+    content="Central Legal do Vibe Sports. Consulte os Termos de Uso, a Política de Privacidade, a Declaração de Participação Esportiva e as instruções para exclusão de conta."
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+
   <header class="hero">
-    <nav class="nav">
-      <div class="brand">
-        <div class="logo">V</div>
-        <span>Vibe</span>
-      </div>
+    <nav class="nav" aria-label="Navegação principal">
+
+      <a class="brand" href="index.html" aria-label="Vibe Sports — Central Legal">
+        <div class="logo" aria-hidden="true">V</div>
+        <span>Vibe Sports</span>
+      </a>
+
       <div class="nav-links">
         <a href="terms.html">Termos</a>
         <a href="privacy.html">Privacidade</a>
+        <a href="participation-declaration.html">Participação</a>
         <a href="delete-account.html">Excluir conta</a>
       </div>
+
     </nav>
 
     <section class="hero-content">
-      <p class="eyebrow">Central legal</p>
-      <h1>Documentos legais do Vibe</h1>
+      <p class="eyebrow">Central Legal</p>
+
+      <h1>Documentos legais do Vibe Sports</h1>
+
       <p class="subtitle">
-        Consulte os Termos de Uso, a Política de Privacidade e as instruções para solicitar a exclusão da sua conta.
+        Consulte os documentos e informações importantes sobre o uso
+        do Vibe Sports, participação em atividades esportivas,
+        privacidade e gerenciamento da sua conta.
       </p>
     </section>
   </header>
 
   <main class="container cards">
+
+    <!-- Termos de Uso -->
     <a class="card" href="terms.html">
-      <span class="icon">📄</span>
+      <span class="icon" aria-hidden="true">📄</span>
+
       <h2>Termos de Uso</h2>
-      <p>Regras para uso do aplicativo, criação de partidas e participação na comunidade.</p>
+
+      <p>
+        Regras e condições para utilização do Vibe Sports,
+        criação de partidas, participação em atividades
+        e interação com a comunidade.
+      </p>
     </a>
 
+    <!-- Política de Privacidade -->
     <a class="card" href="privacy.html">
-      <span class="icon">🔒</span>
+      <span class="icon" aria-hidden="true">🔒</span>
+
       <h2>Política de Privacidade</h2>
-      <p>Informações sobre dados coletados, uso de localização, conta Google e segurança.</p>
+
+      <p>
+        Saiba como o Vibe Sports coleta, utiliza e protege
+        informações relacionadas à sua conta, localização
+        e utilização da plataforma.
+      </p>
     </a>
 
-     <a class="card" href="delete-account.html">
-      <span class="icon">🗑️</span>
-      <h2>Exclusão de Conta</h2>
-      <p>Veja como solicitar a exclusão da sua conta e dos dados vinculados ao app.</p>
+    <!-- Declaração de Participação -->
+    <a class="card" href="participation-declaration.html">
+      <span class="icon" aria-hidden="true">🏃</span>
+
+      <h2>Declaração de Participação</h2>
+
+      <p>
+        Informações importantes sobre condições,
+        responsabilidades e segurança ao participar
+        de atividades esportivas pelo Vibe Sports.
+      </p>
     </a>
+
+    <!-- Exclusão de Conta -->
+    <a class="card" href="delete-account.html">
+      <span class="icon" aria-hidden="true">🗑️</span>
+
+      <h2>Exclusão de Conta</h2>
+
+      <p>
+        Veja como solicitar a exclusão da sua conta
+        e dos dados associados ao Vibe Sports.
+      </p>
+    </a>
+
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Vibe. Todos os direitos reservados.</p>
-    <p>Contato: <a href="mailto:contato@seudominio.com">contato@seudominio.com</a></p>
+
+    <p>
+      © <span id="year"></span> Vibe Sports.
+      Todos os direitos reservados.
+    </p>
+
+    <p>
+      <a href="terms.html">Termos de Uso</a>
+      <span aria-hidden="true"> · </span>
+      <a href="privacy.html">Política de Privacidade</a>
+      <span aria-hidden="true"> · </span>
+      <a href="participation-declaration.html">Declaração de Participação</a>
+    </p>
+
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
