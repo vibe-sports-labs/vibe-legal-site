@@ -199,3 +199,41 @@ h1 {
   .cards { grid-template-columns: 1fr; }
   .footer { flex-direction: column; }
 }
+
+/* Declaração de Participação Esportiva */
+.participation-legal {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 24px 80px;
+  box-sizing: border-box;
+}
+
+.participation-legal .eyebrow {
+  margin-bottom: 16px;
+}
+
+.participation-legal h1 {
+  margin: 0 0 20px;
+}
+
+.participation-legal h2 {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.participation-legal p {
+  margin-top: 0;
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .participation-legal {
+    padding: 40px 20px 64px;
+  }
+
+  .participation-legal h2 {
+    margin-top: 32px;
+  }
+}
